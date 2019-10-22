@@ -1,0 +1,693 @@
+body {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+main {
+  margin: auto;
+}
+
+/**headings**/
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 60pt;
+  border-style: none;
+  padding: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+#main-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about-loaf {
+  font-size: 40pt;
+  margin-top: 40px;
+}
+
+#product-heading2 {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 28pt;
+}
+
+#title1 {
+  margin: 30px;
+  font-size: 40pt;
+}
+
+.nut-title {
+  font-size: 25pt;
+  margin-top: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 24pt;
+  color: black;
+  font-family: fantasy;
+}
+
+#subheading {
+  font-size: 18pt;
+  margin-bottom: 30px;
+}
+
+#about {
+  margin-top: 40px;
+}
+
+.res {
+  font-size: 16pt;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.about-subtitles {
+  margin-top: 40px;
+  font-size: 30pt;
+}
+
+#recommended {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24pt;
+}
+
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+  color: black;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+h5{
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/*NAV BAR */
+
+nav {
+  text-align: center;
+  margin-right: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+nav ul {
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+}
+
+nav li {
+  color: black;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.logout{
+  color: black;
+  font-size: 13pt;
+  background-color: rgb(156, 219, 100);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#logout:hover{
+  background-color: white;
+  color: #7e0d17;
+
+}
+
+.tag_style{
+  color: black;
+  font-size: 11pt;
+  background-color: rgb(156, 219, 100);
+  font-family: sans-serif;
+  border-style: none;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  margin-right:  10px;
+}
+
+.tag_style:hover{
+  background-color: white;
+  color: #7e0d17;
+}
+
+.tag_style2{
+  color: black;
+  font-size: 11pt;
+  background-color: rgb(156, 219, 100);
+  font-family: sans-serif;
+  border-style: none;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  margin-right:  10px;
+}
+
+.tag_style2:hover{
+  background-color: white;
+  color: #7e0d17;
+}
+
+.tag_style3{
+  color: black;
+  font-size: 15pt;
+  background-color:rgb(201, 159, 255);
+  font-family: sans-serif;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  margin-right:  10px;
+}
+
+.tag_style3:hover{
+  background-color: white;
+  color: #7e0d17;
+}
+#header {
+  width: 100%;
+  height: 200px;
+}
+
+.navlines {
+  color: rgb(156, 219, 100);
+  transition: 0.3s ease;
+  font-size: 30px;
+  text-decoration: none;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  padding: 8px;
+  margin-top: 0;
+  margin-right: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navlines:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+.add-form {
+  margin-bottom: 40px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 24px;
+}
+
+#current-page {
+  color: #7e0d17;
+}
+
+/** a tags**/
+
+a {
+  text-decoration: none;
+  width: 50px;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+  margin: 0;
+}
+
+a:hover {
+  color: #7e0d17;
+}
+
+#about-button {
+  background-color: hsl(219, 100%, 74%);
+  color: black;
+  font-size: 24pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 20px;
+}
+
+#about-button:hover {
+  background-color: white;
+  color: hsl(219, 100%, 74%);
+}
+
+#return-button {
+  background-color: hsl(219, 100%, 74%);
+  color: black;
+  font-size: 24pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 20px;
+}
+
+#return-button:hover {
+  background-color: white;
+  color: hsl(219, 100%, 74%);
+}
+
+#nutrition-button {
+  background-color: hsl(44, 100%, 74%);
+  color: black;
+  font-size: 24pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#nutrition-button:hover {
+  background-color: white;
+  color: hsl(44, 100%, 74%);
+}
+
+#sub-button {
+  background-color: hsl(0, 100%, 74%);
+  color: black;
+  font-size: 12pt;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  border: none;
+}
+
+#sub-button:hover {
+  color: rgb(201, 159, 255);
+  background-color: white;
+}
+
+#recommend-button {
+  background-color: rgb(201, 159, 255);
+  color: black;
+  font-size: 16pt;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 100px;
+  border: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#recommend-button:hover {
+  background-color: white;
+  color: rgb(201, 159, 255);
+}
+
+#exercise-button {
+  background-color: hsl(0, 100%, 74%);
+  color: black;
+  font-size: 24pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#exercise-button:hover {
+  background-color: white;
+  color: hsl(0, 100%, 74%);
+}
+
+#contact-button {
+  background-color: rgb(201, 159, 255);
+  color: black;
+  font-size: 24pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#contact-button:hover {
+  background-color: white;
+  color: rgb(201, 159, 255);
+}
+
+.links {
+  margin-bottom: 35px;
+}
+
+#link-button {
+  background-color: #7ae9b5;
+  color: black;
+  font-size: 20pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  padding: 15px;
+}
+
+#link-button:hover {
+  background-color: white;
+  color: #7ae9b5;
+}
+
+#link-button2 {
+  background-color: hsl(202, 91%, 77%);
+  color: black;
+  font-size: 20pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  padding: 15px;
+}
+
+#link-button2:hover {
+  background-color: white;
+  color: hsl(202, 91%, 77%);
+}
+
+.sources {
+  background-color: rgb(156, 219, 100);
+  color: black;
+  font-family: sans-serif;
+}
+
+.sources2 {
+  background-color: hsl(0, 100%, 74%);
+  color: black;
+  font-family: sans-serif;
+}
+
+.sources3 {
+  background-color: rgb(201, 159, 255);
+  color: black;
+  font-family: sans-serif;
+}
+
+.sources4 {
+  background-color: #51d4f5;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+}
+
+#main-about {
+  display: inline-flex;
+}
+
+#about-box2 {
+  display: inline-flex;
+}
+
+#footer {
+  margin-top: 150px;
+}
+
+/*IMAGES */
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#tug {
+  text-align: center;
+}
+
+.gal_images{
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px black solid;
+}
+.flex-inline {
+  display: inline-flex;
+}
+
+.pics {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+#about1 {
+  width: 350px;
+  height: auto;
+}
+
+#homer-pic {
+  width: 350px;
+  height: auto;
+}
+
+#tug {
+  margin-bottom: 0;
+}
+
+#dog-food {
+  display: inline-flex;
+}
+
+#exercise-pic {
+  width: 350px;
+  height: auto;
+  margin-top: 20px;
+}
+
+#chart {
+  width: 600px;
+  height: auto;
+}
+
+#puphoodpic-div {
+  display: inline-flex;
+}
+
+/*PARAGRAPHS */
+
+.pug-intro {
+  font-size: 15pt;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 40pt;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+  display: block;
+}
+
+.pug-intro2 {
+  font-size: 15pt;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 40pt;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+  display: block;
+}
+
+.pug-intro3{
+  line-height: 5pt;
+  margin-bottom: 10px;
+}
+
+.pug-intro4{
+  line-height: 20px;
+}
+
+.centered-fig{
+  text-align: center;
+  margin-bottom:  50px;
+}
+
+#tag_results{
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+#tag_figure{
+  display: inline-flex;
+}
+#quick-links {
+  margin-bottom: 50px;
+}
+
+.puphood-title {
+  text-align: center;
+}
+
+.lifestyle-title {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#thank-you {
+  font-size: 20pt;
+}
+
+#products-body {
+  text-align: center;
+}
+
+#add-formdiv {
+  text-align: center;
+}
+
+.gallery_div{
+  display: inline-block;
+  max-width: 80%;
+  margin-bottom: 60px;
+  line-height: 40pt;
+}
+
+#add_tagdiv{
+  margin-bottom: 60px;
+}
+
+.div2{
+  display: inline-block;
+
+}
+
+#citation{
+  line-height: 40px;
+}
+/**Tables**/
+
+td {
+  border: 2px solid;
+  border-color: black;
+  background-color: hsl(0, 41%, 95%);
+  text-align: center;
+  font-size: 14pt;
+  line-height: 30pt;
+  margin-left: 15;
+  padding-top: 15;
+  padding-bottom: 15;
+  margin-right: 15;
+}
+
+th {
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 2px solid;
+  background-color: hsl(0, 38%, 95%);
+  border-color: black;
+  text-align: center;
+  font-size: 14pt;
+  line-height: 40pt;
+  background-color: rgb(241, 151, 151);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+/**Forms**/
+
+.bold {
+  font-weight: bold;
+}
+
+#add-form {
+  text-align: left;
+  font-size: 13pt;
+  line-height: 20pt;
+}
+
+#search-box {
+  line-height: 35pt;
+}
+
+#form-title {
+  margin-top: 30px;
+}
+
+#form-content {
+  border: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  line-height: 35pt;
+  margin-bottom: 100px;
+}
+
+.form-submit {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#thanks-message {
+  font-size: 20px;
+}
+
+#message_field {
+  width: 400px;
+  height: 200px;
+  wrap: hard;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  display: inline-block;
+  background-color: white;
+  border: 1px #b92467 solid;
+  color: #b92467;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.messages {
+  font-size: 15pt;
+  color: red;
+}
+
+.name_error {
+  color: red;
+}
+
+.email_error {
+  color: red;
+}
+
+.message_error {
+  color: red;
+}
+
+.name_error2 {
+  color: red;
+}
+
+.price_error {
+  color: red;
+}
+
+.seller_error {
+  color: red;
+}
